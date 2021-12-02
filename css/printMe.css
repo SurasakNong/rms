@@ -1,0 +1,19 @@
+
+#print-btn
+{
+  display: none;
+  visibility: none;
+}
+
+@media all
+    {
+      .page-break{ display:none; }
+      .page-break-no{ display:none; }
+    }
+
+@media print
+{
+  .page-break{ display:block; height:1px; page-break-after:always; }
+  .page-break-no{ display:block; height:1px; page-break-after:avoid; }
+
+}

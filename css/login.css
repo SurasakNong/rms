@@ -1,0 +1,105 @@
+/* Import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* CSS Variables */
+@import url(./partials/_variables.css);
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    background: url('../image/bg1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.login-box h2{
+    font: normal 600 28px/40px var(--merienda);
+    color:white;
+    text-shadow: var(--shadow-color2);
+}
+
+.login-box > a{
+    font: normal 400 16px/35px var(--roboto);
+    color:white;
+    text-shadow: var(--shadow-color1);
+}
+
+input[type=text],
+input[type=password] {
+    width: 80%;
+    height: 38px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: .3s;
+    font: normal 500 16px/10px var(--roboto);
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type=text],
+.inputWithIcon input[type=password] {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    padding: 8px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+
+.inputWithIcon input[type=text]:focus+i,
+.inputWithIcon input[type=password]:focus+i {
+    color: dodgerblue;
+}
+
+.btnn {
+    width: 80%;
+    background: none;
+    border: 2px solid #fff;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font: normal 500 24px/30px var(--sarabun);
+    margin-top: 10px;
+}
+
+.btnn:hover {
+    border: 2px solid dodgerBlue;
+    color: dodgerBlue;
+}
+
+.btnn:active {
+    background-color: #1759f4;
+
+}

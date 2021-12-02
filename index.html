@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/stockicon128.ico">
+    <link rel="stylesheet" href="./css/all.min.css"> <!-- font awesome -->    
+    <title>Welcome</title>
+
+    <style>
+      @font-face {
+        font-family: "Merienda";
+        src: url("./fonts/Merienda/Merienda-Regular.ttf")
+          format("truetype-variations");
+      }
+      body{
+        background: black;
+      }
+      h1,h3 {
+        font-family: "Merienda";
+        color: white;
+
+      }
+      .splash {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200));
+          -ms-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* IE 9 */
+          -moz-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* Firefox */
+          -webkit-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* Safari and Chrome */
+          -o-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* Opera */
+        z-index: 200;
+        color: white;
+        text-align: center;
+
+      }
+
+      .splash.display-none{
+        position: fixed;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200));
+          -ms-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* IE 9 */
+          -moz-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* Firefox */
+          -webkit-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* Safari and Chrome */
+          -o-transform:radial-gradient(circle, rgb(5, 30, 90), rgb(20, 100, 200)); /* Opera */
+        z-index: -10;
+        color: white;
+        text-align: center;
+        transition: all 1s;
+      }
+
+      .splash .sp{
+        position: relative;  
+        top: 50%; 
+        transform:translate(0,-50%);
+        -ms-transform:translate(0,-50%); /* IE 9 */
+        -moz-transform:translate(0,-50%); /* Firefox */
+        -webkit-transform:translate(0,-50%); /* Safari and Chrome */
+        -o-transform:translate(0,-50%); /* Opera */
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .fade_in {
+        opacity: 0;
+        animation: fadeIn 1.5s ease-in forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="splash">   
+      <div class="sp">
+        <img class="fade_in" src="image/StockPic.png" alt="" width="95" height="95">      
+        <h1 class="fade_in">Welcome to RMS</h1>
+        <h3 class="fade_in">Raw Material Stock</h3> <br>
+        <i  class="fas fa-spinner fa-pulse fa-2x"></i>
+      </div>   
+    </div>
+
+    <script>
+      const splash = document.querySelector(".splash");
+      document.addEventListener("DOMContentLoaded", (event) => {
+        
+        setTimeout(() => {
+          splash.classList.add('display-none');
+        }, 2500);
+        setTimeout(() => {          
+          window.location.href = 'login_ses';
+        }, 3200);
+          
+ 
+      });
+    </script>
+  </body>
+</html>

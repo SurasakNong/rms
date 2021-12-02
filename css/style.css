@@ -1,0 +1,14 @@
+/* Import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* CSS Variables */
+@import url(./partials/_variables.css);
+
+
+/*
+body {
+    font-family: var(--prompt);
+    background-color: var(--bg-color);
+    margin-top: 0;
+  }
+*/

@@ -1,0 +1,24 @@
+/* CSS Variable */
+:root{
+    --primary-color:#ff5e00;
+    --primary-color2:#ffda62;
+    --title-color:#505050;
+    --text-color:#777777;
+    --border-color:#201f1f17;
+    --gradient-color:linear-gradient(90deg,#ff5e00 10%,#f8ae4d 100%);
+    --shadow-color:0px 10px 30px rgba(120,85,225,0.3);
+    --shadow-color2:3px 3px 0px rgba(0, 0, 0, 0.3), 2px 2px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.5);
+    --box-shadow:0px 10px 30px rgba(70, 60, 55, 0.3);
+    
+    --bg-color: #E1FFE9;
+
+/*  Font familly variables  */
+--roboto:'Roboto',cursive;
+--sarabun:'Sarabun',cursive;
+--sriracha:'Sriracha',cursive;
+--merienda:'Merienda',cursive;
+--prompt:'Prompt',cursive;
+--quark:'Quark',cursive;
+
+
+} 

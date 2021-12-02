@@ -1,0 +1,187 @@
+    * {
+      margin:0;
+      padding:0;
+      font-family:Arial, "times New Roman", tahoma;
+      font-size:11px;
+
+
+    }
+    html {
+      font-family:Arial, "times New Roman", tahoma;
+      font-size:11px;
+      color:#000000;
+
+    }
+    body {
+      font-family:Arial, "times New Roman", tahoma;
+      font-size:11px;
+      padding:0;
+      margin:0;
+      color:#000000;
+      background-color:white;
+    }
+    .headTitle {
+      font-size:22px;
+      font-weight:bold;
+
+    }
+
+    .headTitle2 {
+      font-size:14px;
+      /*font-weight:bold;*/
+
+    }
+
+    .headerTabel {
+      border:1px solid #333333;
+      border-left:2px solid #000;
+      border-bottom-width:2px;
+      border-top-width:2px;
+      font-size:13px;
+      font-weight: bold;
+    }
+    .headerTabel_R {
+      border:1px solid #333333;
+      border-left:2px solid #000;
+      border-right:2px solid #000;
+      border-bottom-width:2px;
+      border-top-width:2px;
+      font-size:13px;
+      font-weight: bold;
+    }
+
+    .headerTabel_thin {
+      border:1px solid #333333;
+      border-left:1px solid #000;
+      border-bottom-width:2px;
+      border-top-width:2px;
+      font-size:13px;
+      font-weight: bold;
+    }
+    .headerTabel_R_thin {
+      border:1px solid #333333;
+      border-left:1px solid #000;
+      border-right:2px solid #000;
+      border-bottom-width:2px;
+      border-top-width:2px;
+      font-size:13px;
+      font-weight: bold;
+    }
+
+    /* กำหนดเส้นบรรทัดซ้าย  และด้านล่าง Data */
+    .left_bottom {
+      border-left:2px solid #000;
+      border-bottom:1px solid #000;
+    }
+    /* กำหนดเส้นบรรทัดซ้าย ขวา และด้านล่าง Data */
+    .left_right_bottom {
+      border-left:2px solid #000;
+      border-bottom:1px solid #000;
+      border-right:2px solid #000;
+    }
+
+
+    /* กำหนดเส้นบรรทัดซ้าย  และด้านล่าง Data line thin */
+    .left_bottom_thin {
+      border-left:1px solid #000;
+      border-bottom:1px solid #000;
+    }
+    /* กำหนดเส้นบรรทัดซ้าย ขวา และด้านล่าง Data line thin */
+    .left_right_bottom_thin {
+      border-left:1px solid #000;
+      border-bottom:1px solid #000;
+      border-right:2px solid #000;
+    }
+
+
+    /* กำหนดเส้นบรรทัดซ้าย  และด้านล่าง Group Thin */
+    .lbg_thin {
+      font-weight: bold;
+      border-left:1px solid #000;
+      border-bottom:2px solid #000;
+    }
+    /* กำหนดเส้นบรรทัดซ้าย ขวา และด้านล่าง Group Thin */
+    .lrbg_thin {
+      font-weight: bold;
+      border-left:1px solid #000;
+      border-bottom:2px solid #000;
+      border-right:2px solid #000;
+    }
+
+    /* กำหนดเส้นบรรทัดซ้าย  และด้านล่าง Group */
+    .lbg {
+      font-weight: bold;
+      border-left:2px solid #000;
+      border-bottom:2px solid #000;
+    }
+    /* กำหนดเส้นบรรทัดซ้าย ขวา และด้านล่าง Group */
+    .lrbg {
+      font-weight: bold;
+      border-left:2px solid #000;
+      border-bottom:2px solid #000;
+      border-right:2px solid #000;
+    }
+
+
+    /* กำหนดเส้นบรรทัดซ้าย  และด้านล่าง Foot */
+    .lbf {
+      font-weight: bold;
+      border-left:2px solid #000;
+      border-bottom:5px double #000;
+      border-top:3px solid #000;
+
+    }
+    /* กำหนดเส้นบรรทัดซ้าย ขวา และด้านล่าง Foot */
+    .lrbf {
+      font-weight: bold;
+      border-left:2px solid #000;
+      border-right:2px solid #000;
+      border-bottom:5px double #000;
+      border-top:3px solid #000;
+
+    }
+
+    /* กำหนดเส้นบรรทัดซ้าย  และด้านล่าง Foot thin */
+    .lbf_thin {
+      font-weight: bold;
+      border-left:1px solid #000;
+      border-bottom:5px double #000;
+      border-top:3px solid #000;
+
+    }
+    /* กำหนดเส้นบรรทัดซ้าย ขวา และด้านล่าง Foot thin */
+    .lrbf_thin {
+      font-weight: bold;
+      border-left:1px solid #000;
+      border-right:2px solid #000;
+      border-bottom:5px double #000;
+      border-top:3px solid #000;
+
+    }
+
+
+    .FooterR {
+      font-size:14px;
+    }
+
+
+
+
+
+    /* สำหรับช่องกรอกข้อมูล  */
+    .box_data1 {
+      font-family:Arial, "times New Roman", tahoma;
+      height:18px;
+      border:0px dotted #333333;
+      border-bottom-width:1px;
+    }
+
+    /* สร้างช่องสี่เหลี่ยมสำหรับเช็คเลือก */
+    .chk_box {
+      display:block;
+      width:10px;
+      height:10px;
+      overflow:hidden;
+      border:1px solid #000;
+    }
+
